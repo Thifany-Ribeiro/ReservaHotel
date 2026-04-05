@@ -26,8 +26,6 @@ public class Reserva {
 
         this.contador = h.length;
 
-        System.out.println("Reserva Realizada para: " + contador + " pessoas");
-
 
     }   
 
@@ -48,7 +46,25 @@ public class Reserva {
      public int getQuantidadeHospedes() {
         return contador;
     }
+    public String getDataEntrada() {
+    return dataEntrada;
+    }
 
+    public String getDataSaida() {
+        return dataSaida;
+    }
+
+    public Quarto getQuarto() {
+        return quarto;
+    }
+
+    public Hospede[] getHospedes() {
+        return hospedes;
+    }
+
+    public Veiculo getVeiculo() {
+        return veiculo;
+    }
     
 }
     
